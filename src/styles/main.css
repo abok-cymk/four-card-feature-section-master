@@ -55,9 +55,9 @@ body {
 }
 
 .card p {
-    font-size: var(--fs);
-    padding-block-start: 0.5rem;
-    color: var(--grey-500);
+  font-size: var(--fs);
+  padding-block-start: 0.5rem;
+  color: var(--grey-500);
 }
 
 .card-supervisor {
@@ -84,13 +84,12 @@ body {
 }
 
 @media screen and (min-width: 48rem) {
-    .text-h2 {
-        font-size: 3rem;
-    }
+  .text-h2 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 72rem) {
-   
   .cards-container {
     grid-template-columns: repeat(3, 21.75rem);
     grid-template-rows: repeat(4, 6rem);
